@@ -1,0 +1,99 @@
+.block {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.pay_order {
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+.discript {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4rem;
+}
+.sorry_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+.tel {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+@media (max-width: 1199px) {
+    .pay_order {
+        font-size: 3.5rem;
+    }
+    .discript {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+    .sorry_text {
+        font-size: 2rem;
+        margin-bottom: 6rem;
+    }
+    .tel {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 767px) {
+    .pay_order {
+        font-size: 3rem;
+    }
+    .discript {
+        font-size: 1.3rem;
+        margin-top: 4rem;
+    }
+    .sorry_text {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+    }
+    .tel {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 575px) {
+    .block {
+        margin-top: 8rem;
+    }
+    .pay_order {
+        font-size: 2.5rem;
+    }
+    .discript {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .sorry_text {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    .tel {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 350px) {
+    .pay_order {
+        font-size: 2.1rem;
+    }
+    .discript {
+        font-size: 0.8rem;
+        margin-top: 3rem;
+    }
+    .sorry_text {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    .tel {
+        font-size: 1.1rem;
+    }
+}

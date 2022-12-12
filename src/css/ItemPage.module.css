@@ -1,0 +1,356 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Стиль блока */
+.item_block {
+    margin-top: 10rem;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inf {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    height: 54rem;
+    width: 54rem;
+}
+.name_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item_name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.discount {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    color: #fff;
+    background-color: #E41515;
+    margin-bottom: 0;
+    margin-left: 0.7rem;
+}
+.help_ava {
+    text-align: center;
+}
+.availability {
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.availability_green {
+    background-color: #76FF03;
+}
+.availability_red {
+    background-color: #D50000;
+}
+.ava {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.availability_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+/* Цвета айтема */
+.color {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.select_color {
+    width: 6rem;
+    height: 6rem;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-radius: 1.5rem;
+    border-color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+}
+.select_color:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.selected_color {
+    border-color: #0048D0;
+}
+.img_color {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+/* Счётчик */
+.counter {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count {
+    width: 6rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.change {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    transition: all 0.2s;
+}
+.change:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.chevron {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+/* ------- */
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.old_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #90A4AE;
+    text-decoration-line: line-through;
+}
+.add_to_bag {
+    background-color: #000;
+    margin-top: 1rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    transition: all 0.2s;
+}
+.add_to_bag:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Стиль описания */
+.des_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+.des_back {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.description {
+    margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width: 1199px) {
+    .image {
+        height: 47rem;
+        width: 47rem;
+    }
+    .add_to_bag {
+        font-size: 2.1rem;
+    }
+    .description {
+        font-size: 2.1rem;
+    }
+}
+@media (max-width: 991px) {
+    .item_name {
+        font-size: 3.6rem;
+    }
+    .discount {
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 1.6rem;
+    }
+    .availability {
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    .ava {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .availability_text {
+        font-size: 2.1rem;
+    }
+    .color {
+        margin-top: 1rem;
+    }
+    .select_color {
+        width: 5rem;
+        height: 5rem;
+        border-width: 0.3rem;
+        border-radius: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .img_color {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .counter {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .count {
+        width: 5.4rem;
+    }
+    .image {
+        height: 36rem;
+        width: 36rem;
+    }
+    .price {
+        font-size: 3rem;
+    }
+    .old_price {
+        font-size: 1.6rem;
+    }
+    .add_to_bag {
+        font-size: 1.8rem;
+        height: 4rem;
+    }
+    .description {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 767px) {
+    .item_name {
+        font-size: 3rem;
+    }
+    .discount {
+        width: 4.4rem;
+        height: 2.2rem;
+        font-size: 1.4rem;
+        margin-left: 0.4rem;
+    }
+    .availability {
+        height: 2rem;
+        width: 2rem;
+    }
+    .ava {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .availability_text {
+        font-size: 1.8rem;
+        margin-left: 0.2rem;
+    }
+    .select_color {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-width: 0.2rem;
+        border-radius: 0.7rem;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .img_color {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .counter {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .count {
+        width: 5rem;
+        font-size: 3rem;
+    }
+    .image {
+        height: 28rem;
+        width: 28rem;
+    }
+    .price {
+        font-size: 2.3rem;
+    }
+    .add_to_bag {
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+    .des_back {
+        padding-bottom: 3rem;
+    }
+    .description {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 575px) {
+    .image {
+        height: 25rem;
+        width: 25rem;
+    }
+    .item_name {
+        font-size: 3rem;
+    }
+    .availability {
+        height: 1.7rem;
+        width: 1.7rem;
+    }
+    .ava {
+        height: 1rem;
+        width: 1rem;
+    }
+    .availability_text {
+        font-size: 1.6rem;
+        margin-left: 0.2rem;
+    }
+    .count {
+        font-size: 2.4rem;
+    }
+    .price {
+        font-size: 2.1rem;
+    }
+}
+@media (max-width: 360px) {
+    .description {
+        font-size: 1.2rem;
+    }
+}

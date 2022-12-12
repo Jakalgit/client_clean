@@ -1,0 +1,143 @@
+/* Врехняя строка */
+.section_line {
+    margin-top: 15rem;
+}
+.your_basket {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.clean_all {
+    background-color: #D50000;
+    height: 5rem;
+    width: 5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    transition: all 0.2s;
+}
+.clean_all:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.close {
+    height: 3rem;
+    width: 3rem;
+}
+.checkout {
+    height: 5rem;
+    background-color: #0048D0;
+    border-style: none;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    transition: all 0.2s;
+}
+.checkout:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.card {
+    display: inline-block;
+    background-color: #0048D0;
+    width: 2.6rem;
+    height: 2.2rem;
+    margin-left: 1rem;
+}
+.empty_text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 45vh;
+}
+@media (max-width: 1199px) {
+    .your_basket {
+        font-size: 3.2rem;
+    }
+    .clean_all {
+        background-color: #D50000;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 1.9rem;
+    }
+    .close {
+        height: 3rem;
+        width: 3rem;
+    }
+    .checkout {
+        height: 4rem;
+        border-radius: 2rem;
+        font-size: 2rem;
+    }
+    .card {
+        width: 2.5rem;
+        height: 2.1rem;
+    }
+}
+@media (max-width: 991px) {
+    .checkout {
+        font-size: 1.8rem;
+    }
+    .card {
+        width: 2.2rem;
+        height: 1.7rem;
+    }
+}
+@media (max-width: 767px) {
+    .your_basket {
+        font-size: 3.4rem;
+    }
+    .checkout {
+        font-size: 1.6rem;
+    }
+    .card {
+        width: 2rem;
+        height: 1.5rem;
+    }
+    .help_clean {
+        text-align: right;
+    }
+    .empty_text {
+        font-size: 4.1rem;
+    }
+}
+@media (max-width: 575px) {
+    .section_line {
+        margin-bottom: 3rem;
+    }
+    .your_basket {
+        text-align: center;
+    }
+    .help_clean {
+        margin-top: 1.5rem;
+    }
+    .checkout {
+        margin-top: 1.5rem;
+    }
+    .close {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media (max-width: 430px) {
+    .your_basket {
+        font-size: 2.4rem;
+    }
+    .checkout {
+        font-size: 1.3rem;
+    }
+    .empty_text {
+        font-size: 3.6rem;
+    }
+}
+@media (max-width: 360px) {
+    .checkout {
+        font-size: 1.1rem;
+    }
+    .empty_text {
+        font-size: 3.2rem;
+    }
+}

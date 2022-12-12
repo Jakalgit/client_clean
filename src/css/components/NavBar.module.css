@@ -1,0 +1,81 @@
+/* Стиль header */
+html,
+body {
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    min-width: 320px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 9rem;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.navbar_brand {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.navbar_link {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar_link_user {
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+}
+.svg {
+    fill: #ffffff8c;
+}
+@media (max-width: 1399px) {
+    .navbar_link_user {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar_link {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .navbar_link_user {
+        margin-left: 2.1rem;
+        margin-right: 2.1rem;
+    }
+    .header {
+        min-height: 9rem;
+    }
+}
+@media (max-width: 991px) {
+    .navbar_link {
+        text-align: left;
+    }
+}
+@media (max-width: 767px) {
+    .navbar_brand {
+        font-size: 3rem;
+    }
+    .header {
+        min-height: 8rem;
+    }
+}
+@media (max-width: 575px) {
+    .navbar_link {
+        font-size: 1.4rem;
+    }
+    .navbar_brand {
+        font-size: 2.5rem;
+    }
+}

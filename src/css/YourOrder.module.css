@@ -1,0 +1,146 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+.check_order {
+    margin-top: 14rem;
+}
+.left_block,
+.right_block {
+    margin-top: 2rem;
+}
+.check_order_text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+.header_info {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.margin {
+    margin-top: 5rem;
+}
+.order_sum {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 7rem;
+}
+.text {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-weight: bold;
+}
+@media (max-width: 1199px) {
+    .check_order_text {
+        font-size: 4rem;
+    }
+    .header_info {
+        font-size: 2.7rem;
+    }
+    .info {
+        font-size: 1.8rem;
+    }
+    .right {
+        font-size: 2.7rem;
+        margin-top: 11rem;
+    }
+    .order_sum {
+        font-size: 3.5rem;
+    }
+    .item_name {
+        font-size: 3.7rem;
+    }
+    .image {
+        height: 35rem;
+        width: 35rem;
+    }
+}
+@media (max-width: 991px) {
+    .item_name {
+        font-size: 3.3rem;
+    }
+    .image {
+        height: 28rem;
+        width: 28rem;
+    }
+    .full_price {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 767px) {
+    .check_order_text {
+        font-size: 3.5rem;
+    }
+    .header_info {
+        font-size: 2.2rem;
+    }
+    .info {
+        font-size: 1.6rem;
+    }
+    .order_sum {
+        font-size: 3rem;
+    }
+    .item_name {
+        font-size: 2.7rem;
+    }
+    .image {
+        height: 22rem;
+        width: 22rem;
+    }
+    .first_price {
+        font-size: 1.2rem;
+    }
+    .count {
+        font-size: 3rem;
+    }
+    .full_price {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .check_order_text {
+        font-size: 2.6rem;
+    }
+    .left_block,
+    .right_block {
+        margin-top: 0;
+    }
+    .order_sum {
+        font-size: 2.6rem;
+    }
+    .item {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 430px) {
+    .check_order_text {
+        font-size: 2.3rem;
+    }
+    .header_info {
+        margin-top: 4rem;
+        font-size: 1.9rem;
+    }
+    .info {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 360px) {
+    .check_order_text {
+        font-size: 2rem;
+    }
+}

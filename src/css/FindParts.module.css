@@ -1,0 +1,274 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+
+/* Поисковая строка */
+.find_block {
+    margin-top: 10rem;
+}
+
+.find_line {
+    margin-top: 3rem;
+    height: 9rem;
+    border-radius: 4.5rem;
+    border-style: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.search {
+    height: 9rem;
+    border-top-left-radius: 4.5rem;
+    border-bottom-left-radius: 4.5rem;
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 4.5rem;
+}
+.search:focus {
+    outline: none;
+}
+.find {
+    height: 9rem;
+    border-top-right-radius: 4.5rem;
+    border-bottom-right-radius: 4.5rem;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: #0048D0;
+    color: #fff;
+    border-style: none;
+    transition: all 0.2s;
+}
+.find:hover {
+    background-color: #0B5BF2;
+}
+/* Секция с рабочей областью */
+.section_text {
+    margin-top: 25rem;
+}
+.find_parts_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+.section_color {
+    margin-top: 10rem;
+    background-color: #0048D0;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+}
+.bar {
+    height: 6rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+.bar:hover {
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.help_bar {
+    position: relative;
+    padding: 0;
+}
+.help_bar:hover .bar {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.name_bar {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.dropdown_list {
+    height: 15.5rem;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    overflow: auto;
+    background-color: #fff;
+}
+.type_bar:hover .type_list {
+    display: block;
+}
+.brand_bar:hover .brand_list {
+    display: block;
+}
+.model_bar:hover .model_list {
+    display: block;
+}
+/* Стиль элемнтов списка */
+.bar_list_item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+.bar_list_item:hover {
+    background-color: #0048D0;
+    color: #fff;
+}
+/* Текст "Пусто" */
+.empty_text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+@media (max-width: 767px) {
+    /* Поисковая строка */
+    .find_line {
+        height: 7rem;
+        border-radius: 3.5rem;
+    }
+    .search {
+        height: 7rem;
+        border-top-left-radius: 3.5rem;
+        border-bottom-left-radius: 3.5rem;
+        font-size: 2.1rem;
+        padding-left: 3.5rem;
+    }
+    .find {
+        height: 7rem;
+        border-top-right-radius: 3.5rem;
+        border-bottom-right-radius: 3.5rem;
+        font-size: 2.6rem;
+    }
+    /* Секция с рабочей областью */
+    .section_text {
+        margin-top: 15rem;
+    }
+    .find_parts_text {
+        font-size: 4.1rem;
+    }
+    .section_color {
+        margin-top: 5rem;
+        height: 13rem;
+    }
+    .bar {
+        height: 5rem;
+    }
+    .name_bar {
+        font-size: 2.1rem;
+    }
+    /* Стиль элемнтов списка */
+    .bar_list_item {
+        font-size: 1.6rem;
+    }
+    /* Текст "Пусто" */
+    .empty_text {
+        font-size: 4.1rem;
+        margin-top: 15rem;
+        margin-bottom: 15rem;
+    }
+}
+@media (max-width: 430px) {
+    /* Поисковая строка */
+    .find_line {
+        height: 6rem;
+        border-radius: 3rem;
+    }
+    .search {
+        height: 6rem;
+        border-top-left-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        font-size: 1.7rem;
+        padding-left: 3rem;
+    }
+    .find {
+        height: 6rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        font-size: 2.1rem;
+    }
+    /* Секция с рабочей областью */
+    .section_text {
+        margin-top: 10rem;
+    }
+    .find_parts_text {
+        font-size: 3.6rem;
+    }
+    .section_color {
+        margin-top: 5rem;
+        height: 10rem;
+    }
+    .bar {
+        height: 4rem;
+    }
+    .name_bar {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+    /* Стиль элемнтов списка */
+    .bar_list_item {
+        font-size: 1.3rem;
+    }
+    /* Текст "Пусто" */
+    .empty_text {
+        font-size: 3.6rem;
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+    }
+}
+@media (max-width: 360px) {
+    /* Поисковая строка */
+    .find_line {
+        height: 5rem;
+        border-radius: 2.5rem;
+    }
+    .search {
+        height: 5rem;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+        font-size: 1.2rem;
+        padding-left: 3rem;
+    }
+    .find {
+        height: 5rem;
+        border-top-right-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+        font-size: 1.6rem;
+    }
+    /* Секция с рабочей областью */
+    .section_text {
+        margin-top: 10rem;
+    }
+    .find_parts_text {
+        font-size: 3.2rem;
+    }
+    .section_color {
+        margin-top: 5rem;
+        height: 10rem;
+    }
+    .bar {
+        height: 4rem;
+    }
+    .name_bar {
+        font-size: 1.6rem;
+    }
+    /* Стиль элемнтов списка */
+    .bar_list_item {
+        font-size: 1.3rem;
+    }
+    /* Текст "Пусто" */
+    .empty_text {
+        font-size: 3.2rem;
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+    }
+}

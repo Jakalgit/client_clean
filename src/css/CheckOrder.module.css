@@ -1,0 +1,131 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Стиль блока */
+.check_order {
+    margin-top: 17rem;
+}
+.left_block,
+.right_block {
+    margin-top: 2rem;
+}
+.check_order_text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+}
+.header_info {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.right {
+    background-color: #000;
+    margin-top: 12rem;
+    height: 8rem;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border-style: none;
+    transition: all 0.2s;
+}
+.right:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.empty {
+    display: inline-block;
+    margin-top: 45vh;
+    margin-left: 50%;
+    font-size: 4rem;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.captcha_block {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+@media (max-width: 1199px) {
+    .check_order_text {
+        font-size: 4rem;
+    }
+    .header_info {
+        font-size: 2.7rem;
+    }
+    .info {
+        font-size: 1.8rem;
+    }
+    .right {
+        font-size: 2.7rem;
+        margin-top: 11rem;
+    }
+}
+@media (max-width: 991px) {
+    .right {
+        height: 7rem;
+        font-size: 2.5rem;
+        margin-top: 12rem;
+    }
+}
+@media (max-width: 767px) {
+    .check_order_text {
+        font-size: 3.5rem;
+    }
+    .header_info {
+        font-size: 2.2rem;
+    }
+    .info {
+        font-size: 1.6rem;
+    }
+    .right {
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 575px) {
+    .check_order_text {
+        font-size: 2.6rem;
+    }
+    .left_block,
+    .right_block {
+        margin-top: 0;
+    }
+}
+@media (max-width: 430px) {
+    .check_order_text {
+        font-size: 2.3rem;
+    }
+    .header_info {
+        margin-top: 4rem;
+        font-size: 1.9rem;
+    }
+    .info {
+        font-size: 1.3rem;
+    }
+    .right {
+        margin-top: 6rem;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 360px) {
+    .check_order_text {
+        font-size: 2rem;
+    }
+}

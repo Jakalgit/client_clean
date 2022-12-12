@@ -1,0 +1,121 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Стиль блока */
+.dandp_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.up_text {
+    margin-top: 14rem;
+}
+.color_section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0048D0;
+}
+.header_text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+.header_info {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    color: #fff;
+}
+.info {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+.index {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.phone_number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: #fff;
+    text-align: center;
+}
+.map {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1199px) {
+    .header_text {
+        font-size: 2.6rem;
+    }
+    .header_info {
+        font-size: 2rem;
+    }
+    .info {
+        font-size: 1.4rem;
+    }
+    .phone_number {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 991px) {
+    .dandp_text {
+        font-size: 4rem;
+    }
+    .info {
+        font-size: 1.1rem;
+    }
+    .phone_number {
+        font-size: 2.7rem;
+    }
+}
+@media (max-width: 767px) {
+    .dandp_text {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    .header_info {
+        font-size: 1.7rem;
+    }
+    .phone_number {
+        font-size: 2.2rem;
+        margin-top: 7rem;
+    }
+    .iframe {
+        width: 360px;
+    }
+}
+@media (max-width: 575px) {
+    .header_text {
+        margin-top: 3rem;
+        font-size: 3.3rem;
+    }
+    .color_section {
+        padding-top: 2rem;
+    }
+    .header_info {
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 395px) {
+    .iframe {
+        width: 300px;
+    }
+}

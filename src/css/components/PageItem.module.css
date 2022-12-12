@@ -1,0 +1,56 @@
+.round {
+    display: inline-flex;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-style: solid;
+    border-radius: 2.5rem;
+    border-width: 0.1rem;
+    border-color: #000;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.round_active {
+    background-color: #000;
+    color: #fff;
+}
+.round:hover {
+    cursor: pointer;
+    background-color: #000;
+}
+.round:hover .round_text {
+    color: #fff;
+}
+.round_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+@media (max-width: 1199px) {
+    .round {
+        height: 4rem;
+        width: 4rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        border-radius: 2rem;
+    }
+    .round_text {
+        font-size: 2.7rem;
+    }
+}
+@media (max-width: 767px) {
+    .round {
+        height: 3.2rem;
+        width: 3.2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        border-radius: 1.5rem;
+    }
+    .round_text {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,174 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+.find_order_text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+}
+.find_orders {
+    margin-top: 15rem;
+}
+.input {
+    height: 6rem;
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+    padding-left: 2rem;
+    transition: all 0.2s;
+}
+.input::placeholder {
+    color: #BDBDBD;
+}
+.input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+/* Кнопка "Поиск" */
+.save {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    height: 6rem;
+    margin-top: 3rem;
+    transition: all 0.2s;
+}
+.save:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+.orders {
+    margin-top: 8rem;
+    overflow: auto;
+    height: 60vh;
+}
+.orders::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+.orders::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #9E9E9E;
+}
+.orders::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+}
+.order:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+.order_number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+.empty_text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    font-size: 4rem;
+
+    margin-top: 26vh;
+}
+@media (max-width: 991px) {
+    .find_order_text {
+        font-size: 4rem;
+    }
+    .input {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 4rem;
+    }
+    .save {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .order {
+        height: 7.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .order_number {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 767px) {
+    .find_order_text {
+        font-size: 3rem;
+    }
+    .input {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .save {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .orders {
+        margin-top: 4rem;
+    }
+    .order {
+        height: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .order_number {
+        font-size: 2.1rem;
+    }
+    .empty_text {
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 575px) {
+    .orders {
+        height: 30rem;
+    }
+    .orders::-webkit-scrollbar {
+        width: 5px;
+    }
+    .order {
+        height: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .order_number {
+        font-size: 1.5rem;
+    }
+    .empty_text {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 470px) {
+    .input {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+    .save {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+}
