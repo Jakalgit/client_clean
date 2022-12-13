@@ -31,11 +31,13 @@ const FindLine = (props) => {
                             >
                                 <div className={style_css.padding + ' container'}>
                                     <div className="row">
-                                        <input type="text"
-                                               value={searchValue}
-                                               onChange={event => setSearchValue(event.target.value)}
-                                               className={style_css.input + ' col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9'}
-                                               placeholder="Поиск товаров..."/>
+                                        <input
+                                            type="text"
+                                            value={searchValue}
+                                            onChange={event => setSearchValue(event.target.value)}
+                                            className={style_css.input + ' col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9'}
+                                            placeholder="Поиск товаров..."
+                                        />
                                         <button onClick={searchClick}
                                                 className={style_css.find + ' col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3'}>
                                             Найти
@@ -49,11 +51,13 @@ const FindLine = (props) => {
                             >
                                 <div className={style_css.padding + ' container'}>
                                     <div className="row">
-                                        <input type="text"
-                                               value={searchValue}
-                                               onChange={event => setSearchValue(event.target.value)}
-                                               className={style_css.input + ' col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9'}
-                                               placeholder="Поиск товаров..."/>
+                                        <input
+                                            type="text"
+                                            value={searchValue}
+                                            onChange={event => setSearchValue(event.target.value)}
+                                            className={style_css.input + ' col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9'}
+                                            placeholder="Поиск товаров..."
+                                        />
                                         <button onClick={searchClick}
                                                 className={style_css.find + ' col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3'}>
                                             Найти

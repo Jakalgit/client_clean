@@ -95,7 +95,7 @@ const FindPage = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className={FindLineStyle.back_shadow +
-                                    ' col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-0'}>
+                                    ' col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1'}>
                                     <div className={FindLineStyle.padding + ' container'}>
                                         <div className="row">
                                             <input type="text"

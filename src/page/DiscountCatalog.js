@@ -31,7 +31,7 @@ const DiscountCatalog = () => {
             setItems(data.rows)
             setLoading(false)
         })
-    }, [])
+    })
 
     useEffect(() => {
         fetchPageItems(null, null, null, null, true,

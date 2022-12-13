@@ -23,7 +23,7 @@ const Item = (props) => {
         getDownloadURL(ref(getStorage(), BUCKET_URL + props.image)).then((url) => {
             setImageURL(url)
         })
-    }, [])
+    })
 
     const itemClick = () => {
         navigate(ITEM_ROUTE + '/' + props.id)

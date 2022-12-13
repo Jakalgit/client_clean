@@ -30,7 +30,7 @@ const YourOrder = () => {
             })
             setLoading(false)
         })
-    }, [])
+    })
 
     useEffect(() => {
         let full = '0'

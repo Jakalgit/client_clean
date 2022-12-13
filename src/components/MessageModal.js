@@ -5,7 +5,6 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore"
 import {useCollectionData} from "react-firebase-hooks/firestore";
 import {Context} from "../index";
-import ContentEditable from "react-contenteditable";
 import {changeLastMessage, createDialog, getOneDialog} from "../http/API/dialogAPI";
 import X_WHITE from "../img/x_white.webp"
 import ARROW from "../img/arrow.webp"
@@ -25,13 +24,9 @@ const MessageModal = (props) => {
 
     const handleKeyDown = (e) => {
         if (e.key === 'Enter' || e.key === 'NumpadEnter') {
-            setMessage(e.currentTarget.innerText
-                .replace("<div>", " ")
-                .replace("</div>", " ")
-                .replace("<br/>", " ")
-            )
-            if (e.currentTarget.innerText.length !== 0) {
-                sendMessage(e.currentTarget.innerText)
+            setMessage(e.target.value)
+            if (e.target.value.length !== 0) {
+                sendMessage(e.target.value)
             }
             e.preventDefault()
         }
@@ -115,12 +110,13 @@ const MessageModal = (props) => {
                 </div>
                 <div className={style_css.input_message}>
                     <div className={style_css.down_line}>
-                        <ContentEditable
+                        <textarea
                             className={style_css.in_message}
-                            id="mess" html={message}
+                            value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             onKeyDown={(e) => handleKeyDown(e)}
-                            data-placeholder="Введите сообщение"
+                            placeholder="Введите сообщение"
+                            rows="2"
                         />
                         <div className={style_css.send} onClick={() => sendMessage(message)}>
                             <img src={ARROW} alt="" className={style_css.arr}/>

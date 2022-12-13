@@ -33,7 +33,7 @@ const BasketPage = observer(() => {
         }).finally(() => {
             setLoading(false)
         })
-    }, [])
+    })
 
     const createOrder = () => {
         navigate(CREATEORDER_ROUTE)

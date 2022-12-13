@@ -41,7 +41,7 @@ const App = observer(() => {
                 })
             })
         })
-    }, [])
+    })
 
     if (loading) {
         return (

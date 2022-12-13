@@ -73,7 +73,7 @@ const ItemPage = () => {
                 }
             })
         })
-    }, [])
+    })
 
     useEffect(() => {
         if (itemPg.price) {

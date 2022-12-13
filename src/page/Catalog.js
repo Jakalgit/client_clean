@@ -46,7 +46,7 @@ const Catalog = observer(() => {
                 setLoading(false)
             })
         })
-    }, [])
+    })
 
     useEffect(() => {
         setItems([])
