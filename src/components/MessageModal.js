@@ -24,8 +24,12 @@ const MessageModal = (props) => {
     )
 
     const handleKeyDown = (e) => {
-        if (e.key === 'Enter') {
-            setMessage(e.currentTarget.innerText)
+        if (e.key === 'Enter' || e.key === 'NumpadEnter') {
+            setMessage(e.currentTarget.innerText
+                .replace("<div>", " ")
+                .replace("</div>", " ")
+                .replace("<br/>", " ")
+            )
             if (e.currentTarget.innerText.length !== 0) {
                 sendMessage(e.currentTarget.innerText)
             }
