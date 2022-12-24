@@ -2,6 +2,7 @@ import BasketPage from './page/BasketPage';
 import Item from './page/ItemPage';
 import Catalog from './page/Catalog';
 import {
+    ABOUT_ROUTE,
     BASKET_ROUTE,
     CATALOG_ROUTE,
     CHECKORDER_ROUTE,
@@ -31,6 +32,7 @@ import NewCatalog from "./page/NewCatalog";
 import DisableOrder from "./page/DisableOrder";
 import NotFound from "./page/NotFound";
 import Repair from "./page/Repair";
+import AboutUs from "./page/AboutUs";
 
 export const routes = [
     {
@@ -92,6 +94,10 @@ export const routes = [
     {
         path: NEW_ROUTE,
         Component: NewCatalog
+    },
+    {
+        path: ABOUT_ROUTE,
+        Component: AboutUs
     },
     {
         path: "*",

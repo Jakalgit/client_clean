@@ -1,0 +1,43 @@
+.block {
+    margin-top: 16rem;
+}
+.part {
+    text-align: center;
+}
+.iframe {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 1.8rem;
+    padding: 1rem;
+    border: 0.1rem solid #000;
+}
+.address_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+}
+.head_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.data_block {
+    margin-top: 2.5rem;
+}
+.time_block {
+    margin-top: 3.4rem;
+}
+.down {
+    margin-top: 4.2rem;
+}
+.data_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    display: block;
+    margin-top: 1.2rem;
+}
+.chats {
+    margin-top: 1.2rem;
+}
