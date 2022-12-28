@@ -44,7 +44,7 @@ const DeliveryAndPay = () => {
                                     <h2 className={DeliveryAndPayCss.info}>Карты VISA, MasterCard, банковские переводы.</h2>
                                     <h2 className={DeliveryAndPayCss.header_info}>Электронные кошельки:</h2>
                                     <h2 className={DeliveryAndPayCss.info}>WebMoney, Яндекс Деньги и др.</h2>
-                                    <h2 className={DeliveryAndPayCss.phone_number}>+7(985)-953-26-96</h2>
+                                    <h2 className={DeliveryAndPayCss.phone_number}>+7(916)-639-88-04</h2>
                                 </div>
                             </div>
                         </div>

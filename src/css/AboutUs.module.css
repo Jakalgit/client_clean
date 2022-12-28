@@ -13,7 +13,7 @@
 }
 .address_text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-top: 2rem;
     text-align: center;
@@ -29,6 +29,11 @@
 .time_block {
     margin-top: 3.4rem;
 }
+.time_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0.7rem;
+}
 .down {
     margin-top: 4.2rem;
 }
@@ -40,4 +45,149 @@
 }
 .chats {
     margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.tg {
+    background-color: #0088CC;
+    border-radius: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.telegram {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: -0.4rem;
+}
+.back {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+.back:hover {
+    cursor: pointer;
+}
+.social_links {
+    margin-top: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soc_block {
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+}
+.soc_block:hover {
+    cursor: pointer;
+}
+.yt {
+    width: 6rem;
+    height: 6rem;
+}
+.vk {
+    width: 5rem;
+    height: 5rem;
+}
+.tg_big {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    background-color: #0088CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telegram_big {
+    width: 3rem;
+    height: 3rem;
+    margin-left: -0.4rem;
+}
+.com_text {
+    margin-top: 6rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.head_list {
+    text-align: center;
+    margin-top: 7.5rem;
+}
+.list {
+    margin-top: 2rem;
+}
+.list_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.round {
+    display: inline-block;
+    background-color: #000000;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.5rem;
+}
+.item_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.str {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.logo_s {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3.5rem;
+}
+.help {
+    margin-top: 2rem;
+    text-align: center;
+}
+.form {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    width: 29.6rem;
+    margin-top: 4.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 0.1rem solid #BDBDBD;
+    border-radius: 1.7rem;
+}
+.feedback_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    border-style: none;
+    outline: none;
+    margin-bottom: 2.2rem;
+}
+.input::placeholder {
+    color: #BDBDBD;
+}
+.feedback_button {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    width: 18rem;
+    height: 4rem;
+    border-style: none;
+    border-radius: 0.8rem;
 }

@@ -23,7 +23,7 @@ const DisableOrder = () => {
                     <h2 className={style_css.sorry_text}>Приносим свои извинения.</h2>
                 </Fade>
                 <Zoom cascade>
-                    <a href="tel:+79859342454" className={style_css.tel}>+7(985)-934-24-54</a>
+                    <a href="tel:+79166398804" className={style_css.tel}>+7(916)-639-88-04</a>
                 </Zoom>
             </div>
         </div>

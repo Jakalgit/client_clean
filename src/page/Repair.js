@@ -196,7 +196,7 @@ const Repair = () => {
                     <button className={style_css.request} onClick={() => setShow(true)}>Оставить заявку</button>
                 </Flip>
                 <Bounce cascade>
-                    <a className={style_css.number} href="tel:+79859532696">+7(985)-943-35-45</a>
+                    <a className={style_css.number} href="tel:+79859532696">+7(916)-639-88-04</a>
                 </Bounce>
             </div>
             <Footer />

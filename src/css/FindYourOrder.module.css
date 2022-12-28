@@ -7,16 +7,16 @@ body {
 .find_order_text {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .find_orders {
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 .input {
-    height: 6rem;
-    margin-top: 6rem;
+    height: 5rem;
+    margin-top: 3rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #000;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     border-radius: 0.5rem;
@@ -34,13 +34,13 @@ body {
 /* Кнопка "Поиск" */
 .save {
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fff;
     background-color: #000;
     border-style: none;
     border-radius: 0.5rem;
-    height: 6rem;
-    margin-top: 3rem;
+    height: 5rem;
+    margin-top: 2rem;
     transition: all 0.2s;
 }
 .save:hover {

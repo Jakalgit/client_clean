@@ -84,7 +84,7 @@ const Home = () => {
                             ассортимент товаров вы можете посмотреть в <Link to={CATALOG_ROUTE}><p className={HomeCss.href}>каталоге</p></Link></h2>
                     </Fade>
                     <Fade right>
-                        <h2 className={HomeCss.phone_number + ' col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12'}>+7(985)-340-26-36</h2>
+                        <h2 className={HomeCss.phone_number + ' col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12'}>+7(916)-639-88-04</h2>
                     </Fade>
                 </div>
             </div>
