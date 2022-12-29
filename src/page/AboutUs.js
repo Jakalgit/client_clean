@@ -1,22 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style_css from "../css/AboutUs.module.css"
 import Footer from "../components/Footer";
 import {Fade, Zoom, Slide} from 'react-reveal';
 
 const AboutUs = () => {
+
+    const [phone, setPhone] = useState('')
+    const [name, setName] = useState('')
+
+    const requestClick = () => {
+
+    }
+
     return (
         <div className={style_css.block}>
            <div className="container">
                <div className="row">
                    <Fade top>
-                       <div className={style_css.part + " col-xxl-6"}>
+                       <div className={style_css.part + " col-xxl-6 offset-xxl-0 col-xl-6 offset-xl-0 " +
+                           "col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1"}>
                            <div style={{position:"relative",overflow:"hidden"}}>
                                <iframe className={style_css.iframe} title="yandex-maps" src="https://yandex.ru/map-widget/v1/-/CCUJR8uKdC"
                                        width="560" height="400" frameBorder="1" allowFullScreen="true"></iframe>
                            </div>
                            <h1 className={style_css.address_text}>м. Бауманская, Спартаковская площадь д. 10 c12</h1>
                        </div>
-                       <div className={style_css.part + " col-xxl-6"}>
+                       <div className={style_css.part + " col-xxl-6 offset-xxl-0 col-xl-6 offset-xl-0 " +
+                           "col-lg-6 offset-lg-0 col-md-6 offset-md-0 col-sm-6 offset-sm-0 col-10 offset-1"}>
                            <h1 style={{marginTop: '0.5rem'}} className={style_css.head_text}>Контакты</h1>
                            <div className={style_css.data_block}>
                                <h2 className={style_css.data_text}>examplemail@gmail.com</h2>
@@ -75,10 +85,17 @@ const AboutUs = () => {
                        </div>
                    </Fade>
                    <Fade bottom>
-                       <h1 className={style_css.com_text}>
-                           <strong>WORK-RC</strong> - это дружеский коллектив моделистов с большим опытом и знаниями,<br/>
-                           готовый помочь вашему хобби!>
-                       </h1>
+                       {window.innerWidth < 575 ?
+                           <h1 className={style_css.com_text}>
+                               <strong>WORK-RC</strong> - это дружеский коллектив моделистов с большим опытом и знаниями,
+                               готовый помочь вашему хобби!
+                           </h1>
+                           :
+                           <h1 className={style_css.com_text}>
+                               <strong>WORK-RC</strong> - это дружеский коллектив моделистов с большим опытом и знаниями,<br/>
+                               готовый помочь вашему хобби!
+                           </h1>
+                       }
                    </Fade>
                    <h1 className={style_css.head_text + ' ' + style_css.head_list}>
                        <Fade cascade>

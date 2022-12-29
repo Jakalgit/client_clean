@@ -191,3 +191,238 @@
     border-style: none;
     border-radius: 0.8rem;
 }
+@media (max-width: 1399px) {
+    .iframe {
+        width: 35rem;
+        height: 35rem;
+        border-radius: 1.4rem;
+    }
+    .address_text {
+        font-size: 1.5rem;
+    }
+    .head_text {
+        font-size: 2rem;
+    }
+    .data_block {
+        margin-top: 2rem;
+    }
+    .time_block {
+        margin-top: 4rem;
+    }
+    .down {
+        margin-top: 3.7rem;
+    }
+    .data_text {
+        font-size: 1.6rem;
+    }
+    .time_text {
+        font-size: 1.6rem;
+    }
+    .telegram {
+        width: 2rem;
+        height: 2rem;
+    }
+    .back {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .yt {
+        width: 5rem;
+        height: 5rem;
+    }
+    .vk {
+        width: 4rem;
+        height: 4rem;
+    }
+    .tg_big {
+        width: 4rem;
+        height: 4rem;
+    }
+    .telegram_big {
+        width: 2rem;
+        height: 2rem;
+    }
+    .com_text {
+        font-size: 2.2rem;
+        margin-top: 5rem;
+    }
+    .head_list {
+        margin-top: 6rem;
+    }
+    .list {
+        margin-top: 1rem;
+    }
+    .round {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .item_text {
+        font-size: 2rem;
+        margin-left: 0.7rem;
+    }
+}
+@media (max-width: 991px) {
+    .iframe {
+        width: 30rem;
+        height: 30rem;
+        border-radius: 1.2rem;
+    }
+    .address_text {
+        font-size: 1.2rem;
+    }
+    .head_text {
+        font-size: 1.7rem;
+    }
+    .data_block {
+        margin-top: 1.4rem;
+    }
+    .time_block {
+        margin-top: 3rem;
+    }
+    .data_text {
+        font-size: 1.4rem;
+    }
+    .time_text {
+        font-size: 1.4rem;
+    }
+    .yt {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .vk {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .tg_big {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .social_links {
+        margin-top: 2rem;
+    }
+    .soc_block {
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    .telegram_big {
+        margin-left: -0.2rem;
+    }
+    .com_text {
+        font-size: 1.7rem;
+    }
+    .round {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    .list_item {
+        margin-top: 1.2rem;
+    }
+    .item_text {
+        font-size: 1.7rem;
+    }
+    .logo_s {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 2.5rem;
+    }
+    .form {
+        margin-top: 1rem;
+        transform: scale(0.95);
+    }
+}
+@media (max-width: 767px) {
+    .block {
+        margin-top: 13rem;
+    }
+    .iframe {
+        width: 25rem;
+        height: 30rem;
+        border-radius: 1rem;
+        padding: 0.6rem;
+    }
+    .address_text {
+        font-size: 0.9rem;
+    }
+    .head_text {
+        font-size: 1.5rem;
+    }
+    .time_block {
+        margin-top: 2rem;
+    }
+    .data_text {
+        font-size: 1.3rem;
+        margin-top: 0.8rem;
+    }
+    .time_text {
+        font-size: 1.3rem;
+    }
+    .telegram {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-left: -0.3rem;
+    }
+    .back {
+        width: 3rem;
+        height: 3rem;
+    }
+    .yt {
+        width: 4rem;
+        height: 4rem;
+    }
+    .vk {
+        width: 3rem;
+        height: 3rem;
+    }
+    .tg_big {
+        width: 3rem;
+        height: 3rem;
+    }
+    .telegram_big {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-left: -0.3rem;
+    }
+    .com_text {
+        font-size: 1.3rem;
+        margin-top: 3rem;
+    }
+    .head_list {
+        margin-top: 4rem;
+    }
+    .round {
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    .list_item {
+        margin-top: 0.8rem;
+    }
+    .item_text {
+        font-size: 1.3rem;
+    }
+    .logo_s {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 2rem;
+    }
+    .form {
+        transform: scale(0.85);
+    }
+}
+@media (max-width: 575px) {
+    .block {
+        margin-top: 9rem;
+    }
+    .address_text {
+        margin-top: 1rem;
+    }
+    .part {
+        margin-top: 2rem;
+    }
+    .head_list {
+        margin-top: 3rem;
+    }
+    .item_text {
+        text-align: center;
+        font-size: 0.85rem;
+    }
+}
