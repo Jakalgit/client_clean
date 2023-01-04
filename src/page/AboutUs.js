@@ -1,19 +1,56 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import style_css from "../css/AboutUs.module.css"
 import Footer from "../components/Footer";
 import {Fade, Zoom, Slide} from 'react-reveal';
+import {createRequest} from "../http/API/requestAPI";
+import Alert from "../components/Alert";
 
 const AboutUs = () => {
 
     const [phone, setPhone] = useState('')
     const [name, setName] = useState('')
 
-    const requestClick = () => {
+    const [start, setStart] = useState(false)
+    const [variant, setVariant] = useState('primary')
+    const [message, setMessage] = useState('')
 
+    useEffect(() => {
+        if (start) {
+            setTimeout(() => {
+                setStart(false)
+            }, 2500)
+        }
+    }, [start])
+
+    const requestClick = () => {
+        if (name && phone.length === 12 && phone.startsWith('+7') && !isNaN(Number(phone))) {
+            createRequest(name, phone).then(data => {
+                if (data !== 'Error' && data !== 'Ошибка') {
+                    setMessage("Заявка оставлена")
+                    setVariant("primary")
+                    setStart(true)
+                } else {
+                    setMessage("Ошибка, повторите отправку позже")
+                    setVariant("error")
+                    setStart(true)
+                }
+                setName("")
+                setPhone("")
+            })
+        } else {
+            setMessage("Ошибка")
+            setVariant("error")
+            setStart(true)
+        }
+    }
+
+    const updateStart = (value) => {
+        setStart(value)
     }
 
     return (
         <div className={style_css.block}>
+           <Alert start={start} variant={variant} text={message} updateStart={(value) => updateStart(value)}/>
            <div className="container">
                <div className="row">
                    <Fade top>
@@ -152,9 +189,21 @@ const AboutUs = () => {
                        <Slide bottom>
                            <div className={style_css.form}>
                                <p className={style_css.feedback_text}>Обратная связь</p>
-                               <input className={style_css.input} type="text" placeholder="Ваше имя"/>
-                               <input className={style_css.input} type="tel" placeholder="Ваше номер телефона +7"/>
-                               <button className={style_css.feedback_button}>Отправить</button>
+                               <input
+                                   value={name}
+                                   onChange={e => setName(e.target.value)}
+                                   className={style_css.input}
+                                   type="text"
+                                   placeholder="Ваше имя"
+                               />
+                               <input
+                                   value={phone}
+                                   onChange={e => setPhone(e.target.value)}
+                                   className={style_css.input}
+                                   type="tel"
+                                   placeholder="Ваше номер телефона +7"
+                               />
+                               <button onClick={requestClick} className={style_css.feedback_button}>Отправить</button>
                            </div>
                        </Slide>
                    </div>
